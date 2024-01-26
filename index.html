@@ -14,26 +14,31 @@
     <div class="weather">
 
     <header>
-        <form>
-            <input type="search" placeholder="Enter city..."required/>
-            <input type="submit" value="search"/>
+        <form class="search-form">
+            <input type="search" placeholder="Enter city..."required class="search-input-form"/>
+            <input type="submit" value="search" class="search-button"/>
 
         </form>
     </header>
     <main>
+        <div class="weather-data">
         <div>
-        <h1>
+        <h1 class="city">
             Johannesburg
     
         </h1>
-        <p>
+        <p class="weather-details">
             Wednesday 18:33, Sunny
             <br/>
-            Humidity: 66%, Wind: 3.13kmh/hr
+            Humidity: <strong>66%</strong>, Wind:<strong> 3.13kmh/hr</strong></strong>
         </p>
         </div>
-        <div>
-        ☀️ 23°C
+        <div class="container">
+        <div class="temperature">
+        <div class="icon" >☀️</div>
+        <div class="temperature">23°C</div>
+        </div>
+        </div>
         </div>
     </main>
     <footer>
